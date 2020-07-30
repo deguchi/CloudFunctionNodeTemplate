@@ -9,6 +9,8 @@ nodeランタイムのCloudFunctionを作るためのテンプレート
 npm install
 npm start
 ```
+http://localhost:8080/
+
 
 Functions Framework  
 https://cloud.google.com/functions/docs/functions-framework?hl=ja
