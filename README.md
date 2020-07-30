@@ -1,6 +1,6 @@
 # CloudFunctionNodeTemplate
 
-CloudFunctionのnodeランタイム作るためのテンプレート
+nodeランタイムのCloudFunctionを作るためのテンプレート
 
 
 ## develop
