@@ -7,7 +7,7 @@
     "dev": "*.js"
   },
   "scripts": {
-    "start": "npm-watch dev",
+    "start": "npx npm-watch dev",
     "dev": "functions-framework --target=helloWorld",
     "deploy": "gcloud functions deploy helloWorld --entry-point helloWorld  --runtime nodejs12 --region asia-northeast1 --trigger-http --allow-unauthenticated",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,8 +16,5 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/functions-framework": "^3.1.2"
-  },
-  "devDependencies": {
-    "npm-watch": "^0.11.0"
   }
 }
