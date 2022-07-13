@@ -9,7 +9,7 @@
   "scripts": {
     "start": "npx npm-watch dev",
     "dev": "functions-framework --target=helloWorld",
-    "deploy": "gcloud functions deploy helloWorld --entry-point helloWorld  --runtime nodejs12 --region asia-northeast1 --trigger-http --allow-unauthenticated",
+    "deploy": "gcloud functions deploy helloWorld --entry-point helloWorld --runtime nodejs16 --region asia-northeast1 --trigger-http --allow-unauthenticated",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
